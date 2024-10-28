@@ -1,0 +1,368 @@
+/* .attribution { font-size: 11px; text-align: center; } */
+ /* .attribution a { color: hsl(228, 45%, 44%); } */
+ body{
+    margin: 0;
+ }
+.intro{
+    background-image: url(images/mobile/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 750px;
+    margin: 0;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 100px;
+
+ }
+ header > nav {
+    display: none;
+ }
+ header > button {
+    background-color: transparent;
+    border: none;
+  }
+  .heading-cont{
+    display: flex;
+    
+    border-color: hsl(0, 0%, 100%);
+    border-width: 1px;
+   
+    justify-content: center;
+    align-items: end;
+    margin-top: 240px;
+    
+  }
+  .heading-cont > h1{
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+    font-family: Josefin Sans;
+    font-weight: 300;
+    width: 350px;
+    border-style: solid ;
+    padding: 16px;
+   
+  }
+
+  .img-class img{
+    width: 450px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+  }
+  .desktop{
+    display: none;
+  }
+  .Leader h2 {
+    font-size: 45px;
+    font-family:Josefin Sans ;
+    font-weight: 300;
+    color: hsl(0, 0%, 0%);
+    width:380px ;
+    padding-left: 66px;
+
+  }
+  .Leader p{
+    font-size: 22px;
+    color:hsl(0, 2%, 47%) ;
+    font-family:alata ;
+    width: 350px;
+    padding-left: 66px;
+    text-align: center;
+
+
+  }
+  .desktop-btn{
+    display: none;
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .pictures{
+    width: 450px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    font-family: Josefin Sans;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+   
+
+  }
+  .pictures p{
+    width: 150px;
+  }
+  .deep{
+    background-image: url(images/mobile/image-deep-earth.jpg);
+  }
+  .night{
+    background-image: url(images/mobile/image-night-arcade.jpg);
+  }
+  .soccer{
+    background-image: url(images/mobile/image-soccer-team.jpg);
+  }
+  .grid{
+    background-image:url(images/mobile/image-grid.jpg) ;
+  }
+  .above{
+    background-image: url(images/mobile/image-from-above.jpg);
+  }
+  .pocket{
+    background-image: url(images/mobile/image-pocket-borealis.jpg);
+  }
+  .curiosity{
+    background-image: url(images/mobile/image-curiosity.jpg);
+  }
+  .fisheye{
+    background-image: url(images/mobile/image-fisheye.jpg);
+  }
+  .sect-3 button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family:Josefin Sans;
+    background-color: transparent;
+    border-color:hsl(0, 0%, 0%);
+    border-width:1px;
+    color: hsl(0, 0%, 0%); 
+    margin-top: 30px;
+    margin-left: 180px;
+  }
+  footer{
+    background-color: hsl(0, 0%, 0%);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .anchors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .small-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer a{
+    text-decoration: none;
+    font-family: alata;
+    color: hsl(0, 0%, 100%);
+    
+    font-size: 20px;
+  }
+  .logos{
+    display: flex;
+    gap: 20px;
+    
+  }
+  footer p{
+    color: hsl(0, 2%, 47%);
+    font-size: 24px;
+    font-family: alata;
+    margin: 0;
+
+  }
+
+  @media (min-width: 730px){
+    .intro{
+        background-image: url(images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+
+    }
+
+    header > button{
+        display: none;
+    }
+    header > nav{
+        display: block;
+        padding: 30px;
+    }
+    header > nav a {
+        color: black;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-family: alata;
+        color: hsl(0, 0%, 100%);
+        font-size: 16px;
+      }
+      .heading-cont{
+        margin-top: 0;
+        justify-content: start;
+        padding-left: 100px;
+        margin-top: 50px;
+
+      }
+      .heading-cont > h1{
+        width: 400px;
+      }
+      .sect-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .mobile{
+        display: none;
+      }
+      .desktop{
+        display: block;
+        
+       
+      }
+      .sect-2 .img-class:first-child{
+       
+        padding-left: 10px;
+      }
+      .sect-2 .interactive{
+        
+        background-color: hsl(0, 0%, 100%);
+        margin-left:-150px;
+        height: 150px;
+        margin-top: 200px;
+        padding-top: 100px;
+        
+      }
+      .sect-2 .interactive h2{
+        font-size: 20px;
+        
+      }
+      .img-class img{
+        width: 600px;
+        padding-top: 60px;
+        padding-left: 40px;
+        padding-bottom: 25px;
+      }
+      .interactive p{
+        font-size: 10px;
+        color:hsl(0, 2%, 47%) ;
+        font-family:alata ;
+        width: 350px;
+        
+     
+  }
+  .sect-3{
+    padding-top: 50px;
+  }
+  .Leader h2 {
+    margin-left: 100px;
+    font-size: 30px;
+  }
+  .deskyy{
+    display: flex;
+    justify-content: space-between;
+    padding-right:100px ;
+    align-items: center;
+  }
+  .deskyy button{
+    padding-left:20px ;
+    padding-right:20px ;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .mobile-btn{
+    display: none;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .deep{
+    background-image: url(images/desktop/image-deep-earth.jpg);
+  }
+  .night{
+    background-image: url(images/desktop/image-night-arcade.jpg);
+  }
+  .soccer{
+    background-image: url(images/desktop/image-soccer-team.jpg);
+  }
+  .grid{
+    background-image: url(images/desktop/image-grid.jpg);
+  }
+  .above{
+    background-image: url(images/desktop/image-from-above.jpg);
+  }
+  .pocket{
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+  }
+  .curiosity{
+    background-image: url(images/desktop/image-curiosity.jpg);
+  }
+  .fisheye{
+    background-image: url(images/desktop/image-fisheye.jpg);
+  }
+  .pictures{
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    font-family: Josefin Sans;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin: 0;
+
+  
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer a{
+    font-size: 12px;
+}
+.anchors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .small-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+ 
+  .socials p{
+    font-size: 12px;
+  }
+
+
+  }
