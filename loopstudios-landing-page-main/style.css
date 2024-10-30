@@ -1,8 +1,12 @@
 /* .attribution { font-size: 11px; text-align: center; } */
- /* .attribution a { color: hsl(228, 45%, 44%); } */
- body{
-    margin: 0;
- }
+ /* .attribution a { color: hsl(228, 45%,% 44%); } */
+ /* relative values should mostly be used---vh, vw,%, em rem  */
+/* vh--viewpoint height--85vh---85% of the available screen height */
+
+/* hapa i should use * ku target all elements  */
+body{
+  margin: 0;
+}
 .intro{
     background-image: url(images/mobile/image-hero.jpg);
     background-size: cover;
